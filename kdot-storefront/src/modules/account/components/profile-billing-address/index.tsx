@@ -11,7 +11,7 @@ import { addCustomerAddress, updateCustomerAddress } from "@lib/data/customer"
 
 type MyInformationProps = {
   customer: HttpTypes.StoreCustomer
-  regions: HttpTypes.StoreRegion[]
+  regions?: HttpTypes.StoreRegion[]
 }
 
 const ProfileBillingAddress: React.FC<MyInformationProps> = ({
